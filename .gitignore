@@ -136,3 +136,36 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Frontend related (Node.js, npm, yarn, etc.)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.npm
+frontend/.eslintcache
+frontend/.nuxt
+frontend/.next
+frontend/.vitepress/cache
+frontend/.vuepress/dist
+frontend/coverage/
+frontend/test-results/
+frontend/playwright-report/
+frontend/blobs/
+frontend/stats.html
+frontend/cypress/videos/
+frontend/cypress/screenshots/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
